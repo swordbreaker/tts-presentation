@@ -1,0 +1,32 @@
+{
+  "name": "tts-paper",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@d4c/numjs": "^0.17.34",
+    "@motion-canvas/2d": "^2.2.0",
+    "@motion-canvas/core": "^2.2.0",
+    "@motion-canvas/player": "^2.2.0",
+    "@slidev/cli": "^0.40.2",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "@types/colormap": "^2.3.1",
+    "@types/plotly.js": "^2.12.13",
+    "@types/uuid": "^9.0.0",
+    "colormap": "^2.3.2",
+    "plotly.js": "^2.18.1",
+    "slidev-theme-academic": "^1.1.1",
+    "slidev-theme-purplin": "^1.2.0",
+    "uuid": "^9.0.0",
+    "wavesurfer": "^1.3.4",
+    "wavesurfer.js": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/wavesurfer.js": "^6.0.3",
+    "playwright-chromium": "^1.30.0"
+  }
+}
