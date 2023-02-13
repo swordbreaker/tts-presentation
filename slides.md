@@ -10,6 +10,7 @@ class: 'text-center'
 highlighter: shiki
 # show line numbers in code blocks
 lineNumbers: false
+font-size: 2rem
 # some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
@@ -29,22 +30,88 @@ css: unocss
 
 Tobias Bollinger
 
+---
+---
+# Introduction
+- Take German text and synthesize Swiss German speech.
+- Explore different methods.
+
+<figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src="/media/cc0-audio/t-rex-roar.mp3">
+            <a href="/media/cc0-audio/t-rex-roar.mp3">
+                Download audio
+            </a>
+    </audio>
+</figure>
+
+
+---
+preload: false
+clicks: 1
+---
+# Cascaded TTS systems vs End-to-end TTS systems
+<MotionCanvas project_name="tts-system" :clicks_to_frames="{0: [0, 245], 1: [245, Infinity]}"/>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
 -->
----
-preload: false
----
-<WavAudio audio="https://swordbreaker.github.io/tts-interference-preview/swissdial-chr/ag-81358.wav"/>
+
+<!-- <WavAudio audio="https://swordbreaker.github.io/tts-interference-preview/swissdial-chr/ag-81358.wav"/> -->
 <!-- <WavAudio audio="https://swordbreaker.github.io/tts-interference-preview/swissdial-chr/vs-86914.wav"/> -->
 
 ---
+clicks: 2
 ---
-<!-- <motion-canvas-player src="/project.632c4285.js"/> -->
-<MotionCanvas v-if="$slidev.nav.currentPage === 3"/>
-<!-- style="aspect-ratio: 16 / 9" -->
-<!-- <MotionCanvas project_file="./project.632c4285.js"/> -->
+# Fourier transform
+<MotionCanvas project_name="spec" :clicks_to_frames="{0: [0, 100], 1: [100, 480], 2: [480, Infinity]}" />
+
+<!-- Decomposing frequencies form sound -->
+---
+clicks: 1
+---
+# Decibel
+$$
+\begin{array}{c}
+dB = 20 * \log10(amplitude)
+\end{array}
+$$
+<div v-click="1" class="mx-a items-center flex justify-center">
+<ul class="items-center">
+  <li><b>60 dB</b> Normal conversation</li>
+  <li><b>105 dB</b> Bulldozer</li>
+  <li><b>140 dB</b> Jet engine at takeoff</li>
+</ul>
+</div>
+---
+---
+
+<img src="imgs/stft_output.png" class="absolute top-1 left-4 w-110" />
+<v-clicks>
+  <img src="imgs/Spectogram.png" class="absolute top-3 right-4 w-100" />
+  <img src="imgs/MelSpectogram2.png" class="absolute bottom-3 right-4 w-100" />
+</v-clicks>
+
+---
+preload: false
+clicks: 3
+---
+<div v-if="$slidev.nav.clicks == 0">
+  <h1>Auto encoder</h1>
+</div>
+<div v-if="$slidev.nav.clicks == 1">
+  <h1>Auto encoder</h1>
+</div>
+<div v-if="$slidev.nav.clicks == 2">
+  <h1>Variational autoencoder</h1>
+</div>
+<div v-if="$slidev.nav.clicks == 3">
+  <h1>Conditional variational autoencoder</h1>
+</div>
+<MotionCanvas project_name="vae" :clicks_to_frames="{0: [0, 96], 1: [96, 208], 2: [208, 270], 3: [270, Infinity]}" :page="$slidev.nav.currentPage"/>
+
 
 ---
 transition: fade-out
