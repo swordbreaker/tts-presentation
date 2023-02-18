@@ -33,34 +33,29 @@ Tobias Bollinger
 ---
 ---
 # Introduction
-- Take German text and synthesize Swiss German speech.
-- Explore different methods.
+- Take German text and synthesize Swiss German speech
+- In different dialects
+- Explore different methods
 
-<figure>
-    <figcaption>Listen to the T-Rex:</figcaption>
+
+---
+---
+# Example
+<q>Tiefsttemperatur 10 Grad, Höchstwerte um 23 Grad.</q>
+
+<div class="mx-auto my-10">
     <audio
         controls
-        src="/media/cc0-audio/t-rex-roar.mp3">
-            <a href="/media/cc0-audio/t-rex-roar.mp3">
-                Download audio
-            </a>
+        src="audios/gt_SwissDial-1830.wav">
     </audio>
-</figure>
+</div>
+
+<div class="flex gap-2 mx-auto" v-click>
+  <img src="imgs/wav.png"/>
+  <img src="imgs/wav_zommed_in.png"/>
+</div>
 
 
----
-preload: false
-clicks: 1
----
-# Cascaded TTS systems vs End-to-end TTS systems
-<MotionCanvas project_name="tts-system" :clicks_to_frames="{0: [0, 245], 1: [245, Infinity]}"/>
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
-<!-- <WavAudio audio="https://swordbreaker.github.io/tts-interference-preview/swissdial-chr/ag-81358.wav"/> -->
-<!-- <WavAudio audio="https://swordbreaker.github.io/tts-interference-preview/swissdial-chr/vs-86914.wav"/> -->
 
 ---
 clicks: 2
@@ -96,6 +91,27 @@ $$
 
 ---
 preload: false
+clicks: 1
+---
+# Cascaded TTS systems vs End-to-end TTS systems
+<MotionCanvas project_name="tts-system" :clicks_to_frames="{0: [0, 245], 1: [245, Infinity]}"/>
+
+<!--
+The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+-->
+
+---
+src: ./pages/tts-systems.md
+---
+
+---
+clicks: 4
+---
+# GAN
+<MotionCanvas project_name="gan" :clicks_to_frames="{0: [0, 2], 1: [2, 65], 2: [65, 120], 3: [120, 280], 4: [280, Infinity]}"/>
+
+---
+preload: false
 clicks: 3
 ---
 <div v-if="$slidev.nav.clicks == 0">
@@ -112,6 +128,12 @@ clicks: 3
 </div>
 <MotionCanvas project_name="vae" :clicks_to_frames="{0: [0, 96], 1: [96, 208], 2: [208, 270], 3: [270, Infinity]}" :page="$slidev.nav.currentPage"/>
 
+
+---
+---
+<div class="w-100% h-100% overflow-hidden">
+  <iframe src="https://stt4sg.fhnw.ch/tts" class="relative -top-105 w-100% h-200%" frameborder="0" />
+</div>
 
 ---
 transition: fade-out
@@ -165,12 +187,12 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 
 ### Keyboard Shortcuts
 
-|     |     |
-| --- | --- |
-| <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
+|                                                     |                             |
+| --------------------------------------------------- | --------------------------- |
+| <kbd>right</kbd> / <kbd>space</kbd>                 | next animation or slide     |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide 2 |
-| <kbd>down</kbd> | next slide |
+| <kbd>up</kbd>                                       | previous slide 2            |
+| <kbd>down</kbd>                                     | next slide                  |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
