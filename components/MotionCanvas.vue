@@ -19,7 +19,7 @@ let activePage = -1;
 let mutex = false;
 
 // see https://github.com/slidevjs/slidev/blob/main/packages/client/logic/nav.ts
-const nav = $slidev.nav as {clicks: number, currentPage: number};
+const nav = $slidev.nav as {clicks: number, currentPage: number, isPrintWithClicks: boolean};
 
 const props = defineProps({
     project_name: {
@@ -121,32 +121,6 @@ async function play(startFrame: number, endFrame:number){
     }
     isPlaying = false;
 }
-
-// async function resume(){
-//     if(p == null || isPlaying) return;
-//     isPlaying = true;
-
-//     let isFinished = await p.next();
-//     while(!isFinished ){ //&& p.frame != props.end_frame
-//         let max_frame = props.clicks_to_frame[nav.clicks];
-//         if(p.frame > max_frame){
-//             await p.seek(props.clicks_to_frame[nav.clicks-1]);
-//         }
-
-//         if(props.clicks_to_frame[nav.clicks] == p.frame){
-//             await sleep(1/p.framerate*100);
-//             continue;
-//         }
-
-//         await p.render();
-//         await sleep(1/p.framerate*100);
-//         isFinished = await p.next();
-//     }
-//     isPlaying = false;
-// }
-// watchEffect(() =>{
-//     const currentRouteName = vm?.ctx?.$slidev.nav.route.name
-// });
 </script>
 
 <template>

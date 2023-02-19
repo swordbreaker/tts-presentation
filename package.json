@@ -4,7 +4,7 @@
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export --with-clicks"
   },
   "dependencies": {
     "@d4c/numjs": "^0.17.34",

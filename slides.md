@@ -55,8 +55,6 @@ Tobias Bollinger
   <img src="/imgs/wav_zommed_in.png"/>
 </div>
 
-
-
 ---
 clicks: 2
 ---
