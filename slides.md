@@ -57,6 +57,7 @@ Tobias Bollinger
 
 ---
 clicks: 2
+preload: false
 ---
 # Fourier transform
 <MotionCanvas project_name="spec" :clicks_to_frames="{0: [0, 100], 1: [100, 480], 2: [480, Infinity]}" />
@@ -72,11 +73,11 @@ dB = 20 * \log10(amplitude)
 \end{array}
 $$
 <div v-click="1" class="mx-a items-center flex justify-center">
-<ul class="items-center">
-  <li><b>60 dB</b> Normal conversation</li>
-  <li><b>105 dB</b> Bulldozer</li>
-  <li><b>140 dB</b> Jet engine at takeoff</li>
-</ul>
+  <ul class="items-center">
+    <li><b>60 dB</b> Normal conversation</li>
+    <li><b>105 dB</b> Bulldozer</li>
+    <li><b>140 dB</b> Jet engine at takeoff</li>
+  </ul>
 </div>
 
 # Freqency Hz
@@ -113,6 +114,7 @@ src: ./pages/tts-systems.md
 
 ---
 clicks: 4
+preload: false
 ---
 # GAN
 <MotionCanvas project_name="gan" :clicks_to_frames="{0: [0, 2], 1: [2, 65], 2: [65, 120], 3: [120, 280], 4: [280, Infinity]}"/>

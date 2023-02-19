@@ -31,7 +31,11 @@ const props = defineProps({
 });
 
 onMounted(async () => {
-    console.log("mounted");
+    if(nav.currentPage == 1){
+        return;
+    }
+
+    console.log("mounted " + props.project_name);
 
     currentClick = nav.clicks;
     currentPage = nav.currentPage;
@@ -45,15 +49,12 @@ onMounted(async () => {
     await p.recalculate();
     const size = p.getSize();
     isMounted = true;
-    // p.seek(0);
     await sleep(1000);
     await onClickChanged(-1, currentClick);
     await watch();
 });
 
 onUnmounted(() =>{
-    console.log("unmounted");
-
     isMounted = false;
 });
 
@@ -61,16 +62,9 @@ function sleep(ms: number) {
   return new Promise(resolve => setTimeout(resolve, ms || DEF_DELAY));
 }
 
-// async function play(){
-//     if(p == null) return;
-
-//     p.seek(props.clicks_to_frame[nav.clicks]);
-//     resume();
-// }
-
 async function watch(){
     while(isMounted){
-        if(currentClick != nav.clicks){
+        if(currentPage == activePage && currentClick != nav.clicks){
             console.log("watch" + nav.clicks);
             await onClickChanged(currentClick, nav.clicks);
             currentClick = nav.clicks;
