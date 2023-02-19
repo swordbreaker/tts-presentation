@@ -4,4 +4,18 @@
 
 .slidev-layout {
     @apply px-14 py-10 text-[1.5rem];
+
+    blockquote {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+cite{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    right: 0px;
+    font-size: 1rem;
+    text-align: right;
 }
