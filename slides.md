@@ -51,8 +51,8 @@ Tobias Bollinger
 </div>
 
 <div class="flex gap-2 mx-auto" v-click>
-  <img src="imgs/wav.png"/>
-  <img src="imgs/wav_zommed_in.png"/>
+  <img src="/imgs/wav.png"/>
+  <img src="/imgs/wav_zommed_in.png"/>
 </div>
 
 
@@ -80,13 +80,22 @@ $$
   <li><b>140 dB</b> Jet engine at takeoff</li>
 </ul>
 </div>
+
+# Freqency Hz
+Number of oscillation per second.
+$$
+\begin{array}{c}
+f = \frac{1}{T}
+\end{array}
+$$
+where $T$ is the time for one oscillation.
 ---
 ---
 
-<img src="imgs/stft_output.png" class="absolute top-1 left-4 w-110" />
+<img src="/imgs/stft_output.png" class="absolute top-1 left-4 w-110" />
 <v-clicks>
-  <img src="imgs/Spectogram.png" class="absolute top-3 right-4 w-100" />
-  <img src="imgs/MelSpectogram2.png" class="absolute bottom-3 right-4 w-100" />
+  <img src="/imgs/Spectogram.png" class="absolute top-3 right-4 w-100" />
+  <img src="/imgs/MelSpectogram2.png" class="absolute bottom-3 right-4 w-100" />
 </v-clicks>
 
 ---
