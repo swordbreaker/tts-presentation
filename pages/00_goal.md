@@ -3,7 +3,10 @@
 # Introduction
 - Take German text and synthesize Swiss German speech
 - In different dialects
-- Explore different methods
+- Explore different deep-learing<material-symbols-question-mark class="color-blue" /> methods
+
+<br/>
+<material-symbols-question-mark class="color-blue" />: will be explained later.
 
 ---
 ---
@@ -21,3 +24,8 @@
   <img src="/imgs/wav.png"/>
   <img src="/imgs/wav_zommed_in.png"/>
 </div>
+
+---
+---
+# Mel spectogram <material-symbols-question-mark class="color-blue" />
+<img src="/imgs/mel-spec.png" class="h-80"/>

@@ -8,9 +8,10 @@ preload: false
 <!-- Decomposing frequencies form sound -->
 
 ---
-clicks: 1
+clicks: 2
 ---
 # Decibel
+
 $$
 \begin{array}{c}
 dB = 20 * \log10(amplitude)
@@ -24,6 +25,8 @@ $$
   </ul>
 </div>
 
+<div v-click="2">
+
 # Freqency Hz
 Number of oscillation per second.
 $$
@@ -32,3 +35,5 @@ f = \frac{1}{T}
 \end{array}
 $$
 where $T$ is the time for one oscillation.
+
+</div>

@@ -35,6 +35,14 @@ src: ./pages/00_goal.md
 ---
 
 ---
+src: ./pages/04_wav.md
+---
+
+---
+src: ./pages/05_spec.md
+---
+
+---
 src: ./pages/01_ml.md
 ---
 
@@ -44,14 +52,6 @@ src: ./pages/02_tts-systems.md
 
 ---
 src: ./pages/03_tts-methods.md
----
-
----
-src: ./pages/04_wav.md
----
-
----
-src: ./pages/05_spec.md
 ---
 
 ---
@@ -76,6 +76,10 @@ src: ./pages/10_vits.md
 
 ---
 src: ./pages/11_experiment.md
+---
+
+---
+src: ./pages/synthesized_audio.md
 ---
 
 ---

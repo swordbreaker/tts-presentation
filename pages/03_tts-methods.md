@@ -35,5 +35,5 @@
 # Cascaded TTS systems - Vocoder
 ## MelGAN
 - proposed by Lyrebird AI in 2019
-- uses generative adversarial network (GAN)
+- uses Generative Adversarial Network (GAN<material-symbols-question-mark class="color-blue" />)
 <!-- <img src="/imgs/DilatedCasualConvolutions.png" class="w-80%" /> -->
