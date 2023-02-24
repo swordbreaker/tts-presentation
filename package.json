@@ -19,6 +19,7 @@
     "@types/uuid": "^9.0.0",
     "colormap": "^2.3.2",
     "plotly.js": "^2.18.1",
+    "sass": "^1.58.3",
     "slidev-theme-academic": "^1.1.1",
     "slidev-theme-purplin": "^1.2.0",
     "uuid": "^9.0.0",
@@ -26,6 +27,7 @@
     "wavesurfer.js": "^6.4.0"
   },
   "devDependencies": {
+    "@iconify-json/ic": "^1.1.13",
     "@iconify-json/material-symbols": "^1.1.31",
     "@types/wavesurfer.js": "^6.0.3",
     "playwright-chromium": "^1.30.0"

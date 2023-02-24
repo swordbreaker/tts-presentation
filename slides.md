@@ -79,6 +79,10 @@ src: ./pages/11_experiment.md
 ---
 
 ---
+src: ./pages/metrics.md
+---
+
+---
 src: ./pages/synthesized_audio.md
 ---
 
