@@ -88,6 +88,6 @@
 ---
 <div class="flex flex-wrap justify-center">
   <img src="/imgs/sds200_mel_loss.png" class="w-50%"/>
-  <img src="/imgs/SwissDial generator mel loss.png" class="w-50%"/>
+  <img src="/imgs/SwissDial_generator_mel_loss.png" class="w-50%"/>
   <img src="/imgs/Slowsoft_mel_loss.png" class="w-50%"/>
 </div>
