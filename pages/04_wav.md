@@ -28,7 +28,7 @@ $$
 <div v-click="2">
 
 # Freqency Hz
-Number of oscillation per second.
+Number of oscillations per second.
 $$
 \begin{array}{c}
 f = \frac{1}{T}

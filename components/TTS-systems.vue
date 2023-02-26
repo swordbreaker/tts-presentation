@@ -3,19 +3,22 @@
         <div class="flex-parent">
             <div class="input-flex-container">
                 <div class="input">
-                    <span data-year="2016" data-info="WaveNet (vocoder)"></span>
+                    <span data-year="2016" data-info="WaveNet (Vocoder)"></span>
                 </div>
                 <div class="input">
-                    <span data-year="2017" data-info="Tacotron 2 (coustic model)"></span>
+                    <span data-year="2017" data-info="Tacotron 2 (Acoustic model)"></span>
                 </div>
                 <div class="input">
-                    <span data-year="2019" data-info="MelGAN (vocoder)"></span>
+                    <span data-year="2019" data-info="MelGAN (Vocoder)"></span>
                 </div>
                 <div class="input">
-                    <span data-year="2020" data-info="FastSpeech 2 ( acoustic model)"></span>
+                    <span data-year="2019" data-info="Parallel WaveGAN (Vocoder)"></span>
                 </div>
                 <div class="input">
-                    <span data-year="2021" data-info="VITS (end-to-end system)"></span>
+                    <span data-year="2020" data-info="FastSpeech 2 (Acoustic model)"></span>
+                </div>
+                <div class="input">
+                    <span data-year="2021" data-info="VITS (End-to-End system)"></span>
                 </div>
             </div>
         </div>

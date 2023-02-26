@@ -17,3 +17,6 @@
         src="audios/gr-SwissDial-1830.wav">
     </audio>
 </div>
+
+- Text: <q>Tüüfsttemperatur zehn Grad, Höchstwert um dreiazwanzig Grad</q>
+- Speaker: GR

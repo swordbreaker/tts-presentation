@@ -1,12 +1,12 @@
 ---
 ---
 # Introduction
-- Take German text and synthesize Swiss German speech
-- In different dialects
-- Explore different deep-learing<material-symbols-question-mark class="color-blue" /> methods
+- take German text and synthesize Swiss German speech
+- in different dialects
+- explore different deep-learing<material-symbols-question-mark class="color-blue" /> methods
 
 <br/>
-<material-symbols-question-mark class="color-blue" />: will be explained later.
+<material-symbols-question-mark class="color-blue" />: will be explained later
 
 ---
 ---
@@ -27,5 +27,5 @@
 
 ---
 ---
-# Mel spectogram <material-symbols-question-mark class="color-blue" />
+# Mel spectrogram <material-symbols-question-mark class="color-blue" />
 <img src="/imgs/mel-spec.png" class="h-80"/>
