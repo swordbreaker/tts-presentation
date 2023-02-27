@@ -2,7 +2,7 @@
 ---
 # Thank you for your attention!
 
-Do you have any questions <material-symbols-question-mark-rounded/>
+Do you have any questions?
 
 <div class="position-absolute bottom-0">
 <h2 class="text-center">Tools used:</h2>

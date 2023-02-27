@@ -18,7 +18,7 @@
 - hit ($H$)
 - substitution ($S$)
 - deletion ($D$)
-- insertion ($I$).
+- insertion ($I$)
 
 
 $$
@@ -29,7 +29,7 @@ $$
  
 $$
 
-- $N_{GT}$ the number of character in the ground-truth.
+- $N_{GT}$ the number of characters in the ground-truth
 - $N_{mod}$ the number of characters which needed modification
 
 ---
@@ -47,7 +47,7 @@ $$
 ## Vocoder Discriminator Score
 - vocoder GAN Architecture
 - take discriminator
-- input synthesize data
+- input synthesized data
 - can we fool the discriminator?
 
 ---

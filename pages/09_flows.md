@@ -1,8 +1,8 @@
 ---
+clicks: 2
 ---
 # Flows
 
-<img src="/imgs/Normalizing-flow.png" />
-<cite>From: https://de.wikipedia.org/wiki/Normalisierter_Fluss#/media/Datei:Normalizing-flow.svg</cite>
+<MotionCanvas project_name="flows" :clicks_to_frames="{ 0: [0, 2], 1: [0, 180], 2: [180, Infinity] }" />
 
 <!-- Easy to sample. -->

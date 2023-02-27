@@ -3,6 +3,7 @@ import * as ttsSystems from "/animations/tts-system/project.js";
 import * as spectograms from "/animations/spectograms/project.js";
 import * as gan from "/animations/gan/project.js";
 import * as vits from '/animations/vits/project.js';
+import * as flows from '/animations/flows/project.js';
 
 export const projects = {
     "vae": vae,
@@ -10,4 +11,5 @@ export const projects = {
     "spec": spectograms,
     "gan": gan,
     "vits": vits,
+    "flows": flows,
 }
