@@ -115,15 +115,15 @@
   <table class="w-500px!">
     <tr>
       <td>train</td>
-      <td>27’828</td>
+      <td>2’061</td>
     </tr>
     <tr>
       <td>dev</td>
-      <td>1’546</td>
+      <td>115</td>
     </tr>
     <tr>
       <td>test</td>
-      <td>1’547</td>
+      <td>115</td>
     </tr>
   </table>
 </v-click>
@@ -135,8 +135,6 @@
 - 4x NVIDIA A100-SXM4 40 GB
 - SDS-200 and SwissDial 4 day training
 - SlowSoft 1 day training
-- SDS-200 only speaker with the most data and best quality were chosen
-  - AG, BE, SG, ZH
 
 ---
 ---
